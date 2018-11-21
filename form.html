@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Carlos Alva Form</title>
+  </head>
+  <body>
+    <p>
+      GET request
+    </p>
+    <form method = "GET" action = "cgi-bin/script.cgi">
+      Name: <input type="text" name="name" value="">
+      Age: <input type="text" name="age" value="">
+      Sex: <input type="text" name="sex" value="">
+      <br>
+      <input type="submit" name="submitGet" value="Submit">
+    </form>
+    <p>
+      POST request
+    </p>
+    <form method="POST" action="cgi-bin/script.cgi">
+      City: <input type="text" name="city" value="">
+      State: <input type="text" name="state" value=""> 
+      Country: <input type"text" name="country" value="">
+      Continent: <input type="text" name="continent" value="">
+	
+	<br>
+      <input type="submit" name="submitPost" value="Submit">
+    </form>
+  </body>
+</html>
+
